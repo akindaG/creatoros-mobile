@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "CreatorOS AI",
+    "slug": "creatoros-mobile",
+    "version": "0.2.0",
+    "orientation": "portrait",
+    "scheme": "creatoros",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ai.creatoros.mobile"
+    },
+    "android": {
+      "package": "ai.creatoros.mobile"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "CreatorOS needs media access so you can attach images and videos to posts.",
+          "cameraPermission": "CreatorOS needs camera access so you can capture content for posts."
+        }
+      ],
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

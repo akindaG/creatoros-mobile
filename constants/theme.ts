@@ -1,0 +1,1 @@
+export const colors={bg:'#090A12',panel:'#111425',panel2:'#171A2C',border:'#292D45',text:'#F7F7FB',muted:'#969AB4',purple:'#8B5CF6',purple2:'#A78BFA',green:'#38D39F',red:'#FF6B7A',amber:'#F9B44B',blue:'#54A7FF',white:'#FFFFFF'};export const spacing={xs:6,sm:10,md:16,lg:22,xl:30};export const radius={sm:10,md:16,lg:22,pill:999};
