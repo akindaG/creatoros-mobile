@@ -44,7 +44,7 @@ export default function AccountsScreen() {
     <Screen style={{ padding: 0 }}>
       <ScrollView contentContainerStyle={styles.body}>
         <H1>Social Accounts</H1>
-        <Muted>The current backend uses token-based Facebook and Instagram connections. Tokens are encrypted server-side before storage.</Muted>
+        <Muted>This mobile client currently uses manual access-token entry. The CreatorOS backend also supports OAuth for the web client, and all stored social tokens are encrypted server-side.</Muted>
 
         {accounts.data?.map((account) => (
           <Card key={account.id} style={{ gap: 10 }}>
