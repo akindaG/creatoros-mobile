@@ -39,8 +39,7 @@ CreatorOS FastAPI backend
    |          |           |
 PostgreSQL  Storage   AI Provider Layer
                          |
-                         +--> Gemini
-                         +--> Ollama/Qwen 3
+                         +--> Google Gemini
                          +--> Fallback
             |
             +--> Meta / Instagram APIs
@@ -67,9 +66,9 @@ Mobile AI requests go through the FastAPI backend:
 - POST /api/v1/ai/hashtags
 - POST /api/v1/ai/analyze
 
-The phone does not run Qwen locally.
+The phone does not run the AI model locally.
 
-The backend chooses Gemini or Ollama/Qwen 3 according to AI_PROVIDER and can return deterministic fallback output when enabled.
+The backend handles AI requests with Google Gemini and can return deterministic fallback output when enabled.
 
 ## Requirements
 
